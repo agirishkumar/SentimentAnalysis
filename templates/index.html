@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <h2>Sentiment Analysis of Movie Reviews</h2>
+    <form method="post">
+        <textarea name="review" rows="4" cols="50" placeholder="Enter your movie review here..."></textarea><br>
+        <input type="submit" value="Analyze Sentiment">
+    </form>
+    {% if result %}
+        <h3>Analysis Result: {{ result }}</h3>
+        <p><b>Review:</b> {{ original_input['Review'] }}</p>
+    {% endif %}
+</body>
+</html>
