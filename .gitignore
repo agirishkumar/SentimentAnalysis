@@ -1,0 +1,4 @@
+GoogleNews-vectors-negative300.bin
+custom_word2vec.model.wv.vectors.npy
+custom_word2vec.model.syn1neg.npy
+custom_word2vec.model
